@@ -684,7 +684,7 @@
         <!--Window Controller-->
         <scene sceneID="R2V-B0-nI4">
             <objects>
-                <windowController id="B8D-0N-5wS" sceneMemberID="viewController">
+                <windowController id="B8D-0N-5wS" customClass="WindowController" customModule="DraggableScrollViewApp" customModuleProvider="target" sceneMemberID="viewController">
                     <window key="window" title="DraggableScrollViewApp" allowsToolTipsWhenApplicationIsInactive="NO" autorecalculatesKeyViewLoop="NO" releasedWhenClosed="NO" visibleAtLaunch="NO" animationBehavior="default" id="IQv-IB-iLA">
                         <windowStyleMask key="styleMask" titled="YES" closable="YES" miniaturizable="YES" resizable="YES"/>
                         <windowPositionMask key="initialPositionMask" leftStrut="YES" topStrut="YES"/>
@@ -739,21 +739,21 @@
                             <scrollView borderType="none" horizontalLineScroll="10" horizontalPageScroll="10" verticalLineScroll="10" verticalPageScroll="10" usesPredominantAxisScrolling="NO" translatesAutoresizingMaskIntoConstraints="NO" id="Vj9-HA-gja" customClass="DraggableScrollView" customModule="DraggableScrollViewApp" customModuleProvider="target">
                                 <rect key="frame" x="0.0" y="0.0" width="600" height="400"/>
                                 <clipView key="contentView" id="vHP-iD-odv" customClass="FlippedClipView" customModule="DraggableScrollViewApp" customModuleProvider="target">
-                                    <rect key="frame" x="0.0" y="0.0" width="585" height="385"/>
+                                    <rect key="frame" x="0.0" y="0.0" width="600" height="400"/>
                                     <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                     <subviews>
                                         <view id="kHn-Dt-5eQ">
-                                            <rect key="frame" x="0.0" y="0.0" width="570" height="370"/>
+                                            <rect key="frame" x="0.0" y="0.0" width="585" height="385"/>
                                             <autoresizingMask key="autoresizingMask" widthSizable="YES" heightSizable="YES"/>
                                         </view>
                                     </subviews>
                                 </clipView>
                                 <scroller key="horizontalScroller" wantsLayer="YES" verticalHuggingPriority="750" horizontal="YES" id="rg7-6g-mYo">
-                                    <rect key="frame" x="0.0" y="385" width="585" height="15"/>
+                                    <rect key="frame" x="0.0" y="384" width="600" height="16"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
                                 <scroller key="verticalScroller" wantsLayer="YES" verticalHuggingPriority="750" doubleValue="1" horizontal="NO" id="AHE-a4-Jf9">
-                                    <rect key="frame" x="585" y="0.0" width="15" height="385"/>
+                                    <rect key="frame" x="584" y="0.0" width="16" height="400"/>
                                     <autoresizingMask key="autoresizingMask"/>
                                 </scroller>
                             </scrollView>

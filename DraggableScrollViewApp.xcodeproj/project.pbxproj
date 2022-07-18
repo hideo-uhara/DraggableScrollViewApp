@@ -7,6 +7,7 @@
 	objects = {
 
 /* Begin PBXBuildFile section */
+		7C9139AD2886153B000F998F /* WindowController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C9139AC2886153B000F998F /* WindowController.swift */; };
 		7C951B9E28784FF1006D4235 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C951B9D28784FF1006D4235 /* AppDelegate.swift */; };
 		7C951BA028784FF1006D4235 /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7C951B9F28784FF1006D4235 /* ViewController.swift */; };
 		7C951BA228784FF3006D4235 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 7C951BA128784FF3006D4235 /* Assets.xcassets */; };
@@ -17,6 +18,7 @@
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
+		7C9139AC2886153B000F998F /* WindowController.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = WindowController.swift; sourceTree = "<group>"; };
 		7C951B9A28784FF1006D4235 /* DraggableScrollViewApp.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DraggableScrollViewApp.app; sourceTree = BUILT_PRODUCTS_DIR; };
 		7C951B9D28784FF1006D4235 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
 		7C951B9F28784FF1006D4235 /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
@@ -61,6 +63,7 @@
 				7C951BB02878509D006D4235 /* DraggableScrollView.swift */,
 				7C951BAE28785084006D4235 /* FlippedClipView.swift */,
 				7C951B9D28784FF1006D4235 /* AppDelegate.swift */,
+				7C9139AC2886153B000F998F /* WindowController.swift */,
 				7C951B9F28784FF1006D4235 /* ViewController.swift */,
 				7C951BAC28785076006D4235 /* IMG_3802.jpeg */,
 				7C951BA128784FF3006D4235 /* Assets.xcassets */,
@@ -142,6 +145,7 @@
 			buildActionMask = 2147483647;
 			files = (
 				7C951BA028784FF1006D4235 /* ViewController.swift in Sources */,
+				7C9139AD2886153B000F998F /* WindowController.swift in Sources */,
 				7C951B9E28784FF1006D4235 /* AppDelegate.swift in Sources */,
 				7C951BAF28785084006D4235 /* FlippedClipView.swift in Sources */,
 				7C951BB12878509D006D4235 /* DraggableScrollView.swift in Sources */,
